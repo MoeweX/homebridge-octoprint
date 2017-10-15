@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-octoprint",
+  "version": "0.0.1",
+  "description": "OctoPrint plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanH5/homebridge-octoprint"
+  },
+  "bugs": {
+    "url": "https://github.com/JonathanH5/homebridge-octoprint/issues"
+  },
+  "dependencies": {
+    "request": ">=2.83.0",
+    "request-promise": ">=4.2.2"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
