@@ -1,17 +1,16 @@
 {
-     "bridge": {
+    "bridge": {
         "name": "HomeBridge",
         "username": "CC:22:3D:E3:CE:40",
         "port": 51826,
         "pin": "031-45-154"
     },
-
     "description": "HomeBridge OctoPrint Plugin",
-
     "accessories": [
-      {
-        "accessory": "OctoPrint",
-        "api_key": "xxx",
-      }
+        {
+            "accessory": "OctoPrint",
+            "name": "OctoPrint",
+            "api_key": "XXXXX"
+        }
     ]
 }

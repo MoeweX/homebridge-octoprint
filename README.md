@@ -6,7 +6,17 @@ Plugin to support [OctoPrint](https://octopi.octoprint.org) 3D printer control v
 
 1. Install homebridge using: npm install -g homebridge
 2. Install homebridge-octoprint using: npm install -g homebridge-octoprint
-3. Update your configuration file. See sample-config.json in this repository for a sample.
+3. Update your configuration file. See sample-config.json in this repository for a sample or below.
+
+```
+"accessories": [
+    {
+      "accessory": "OctoPrint",
+      "name": "OctoPrint",
+      "api_key": "XXXXX"
+    }
+]
+```
 
 # What does this plugin do?
 
